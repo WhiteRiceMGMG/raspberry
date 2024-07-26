@@ -89,5 +89,5 @@ void main(){
 	fd = wiringPiI2CSetup(LCDAddr);
 	init();
 	write(0, 0, "HELLO WORLD");
-	write(1, 1, "BY OGAWA");
+	write(1, 1, "TOMOE TAYAN");
 }
